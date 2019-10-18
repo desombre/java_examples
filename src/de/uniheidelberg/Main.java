@@ -15,11 +15,11 @@ public class Main {
         // Wir instanziieren einen DieselEngine (ein Object) mit dem new Keyword.
         DieselEngine dieselEngine = new DieselEngine(180, 0.0);
 
-        // Deklaration und Instanziierung müssen nicht in derselben Codezeile erfolgen.
+        // Deklaration und Inititalisierung müssen nicht in derselben Codezeile erfolgen.
         // Deklaration -> was passiert wenn wir es jetzt nutzen wollen? Variable ist null: warnung!
         ElectricEngine electricEngine;
         //System.out.println(electricEngine.getMileageUnit());
-        // Instanziierung
+        // Inititalisierung
         electricEngine = new ElectricEngine(200, 0.0);
 
         // Interfaces/Vererbung sind versprechen bestimmte Dinge zu können/ haben.
