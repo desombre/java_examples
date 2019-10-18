@@ -1,4 +1,4 @@
-package de.uniheidelberg;
+package de.uniheidelberg.vehicle;
 
 public interface Vehicle {
 

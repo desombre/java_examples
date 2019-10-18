@@ -1,4 +1,4 @@
-package de.uniheidelberg;
+package de.uniheidelberg.vehicle;
 
 public class Boat implements Vehicle {
     private Integer maxSpeed;
