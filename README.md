@@ -3,14 +3,20 @@
 
 ## Themen des Projektes
 
-  - Vererbung 
-  - Abstrakte Klassen 
-  - Interfaces
-  - Enum
-  - Assoziationen
-  - Referenzen
-  - Deklaration und Initialisierung
-  - Methoden Deklaration und Aufruf
+- Deklaration und Initialisierung
+
+- Programmfluss-Steuerung
+    - Verzweigung
+    - Schleifen
+- OO
+    - Objekt-Instanziierung
+    - Vererbung 
+    - Abstrakte Klassen 
+    - Interfaces
+    - Enum
+    - Assoziationen
+    - Referenzen
+    - Methoden Deklaration und Aufruf
 
 
 ## Und jetzt?

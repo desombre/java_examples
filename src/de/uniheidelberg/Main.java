@@ -5,6 +5,9 @@ import de.uniheidelberg.engine.ElectricEngine;
 import de.uniheidelberg.vehicle.Car;
 import de.uniheidelberg.vehicle.Vehicle;
 
+import java.util.List;
+import java.util.Scanner;
+
 public class Main {
 
     //Main -> Entrypoint des Java Programms
@@ -12,6 +15,34 @@ public class Main {
         // Hier gehts los.
         System.out.println("Test");
 
+        // ----- VORHANDENE KLASSEN -----
+        // Java Klassen sind Baupläne für Objekte
+        // Der Konstruktor eine "besondere" Methode die beim erstellend es Objektes aufgerufen wird.
+        String greeting = new String("Hello ");
+        // Klassen müssen importiert werden. Das macht die IDE in der Regel von selbst.
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = scanner.next();
+
+        System.out.println(greeting + name);
+
+        // Wichtige Programmsteuerungs-Elemente:
+        // Verzweigungen: If-else, Switch-case
+
+        if ("Philipp".equals(name)) {
+            System.out.println("\uD83D\uDC4D");
+        } else {
+            System.out.println("\uD83D\uDC4E");
+        }
+        // Schleifen: while, do, for, for-each
+        String[] names = {name, "Paul", "Mannfred", "Hermine"};
+
+        for (String currentName : names) {
+            System.out.println(greeting + currentName);
+        }
+
+        // ----- EIGENE KLASSEN -----
+        System.out.println("--------------");
         // Wir instanziieren einen DieselEngine (ein Object) mit dem new Keyword.
         DieselEngine dieselEngine = new DieselEngine(180, 0.0);
 
