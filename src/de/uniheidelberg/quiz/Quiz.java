@@ -22,13 +22,13 @@ class DieselEngine extends Engine {
 
 public class Quiz {
     public static void main(String[] args) {
-        Engine e = new Engine();
+        //Engine e = new Engine();
         Engine e1 = new Engine(60);
         e1 = new Engine(75);
-        Engine e1 = new Engine(90);
-        DieselEngine de = new DieselEngine();
+        //Engine e1 = new Engine(90);
+        //DieselEngine de = new DieselEngine();
         e1 = new DieselEngine(80);
-        DieselEngine de1 = new Engine(55);
+        //DieselEngine de1 = new Engine(55);
     }
 
 }
