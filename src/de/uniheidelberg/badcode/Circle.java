@@ -2,6 +2,7 @@ package de.uniheidelberg.badcode;
 
 public class Circle implements Shape{
     private double radius;
+    private double circumference;
 
     public Circle(double radius) {
         this.radius = radius;
