@@ -1,0 +1,7 @@
+5: unbenutzte Instanzvariable
+11: Override Annotation fehlt;
+21: print im getter;
+29: isValid sollte boolean zurückgeben;
+39: isBiggerThan sollte boolean zurückgeben;
+43: equals sollte boolean zurück geben -> überschreibt man von Object
+48: toString nicht static, sondern als Instanzmethode umsetzen.
