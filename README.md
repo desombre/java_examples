@@ -1,24 +1,12 @@
-# Java Beispiele
+# Wiederholung / Tutorium
 
 
 ## Themen des Projektes
 
-- Deklaration und Initialisierung
-
-- Programmfluss-Steuerung
-    - Verzweigung
-    - Schleifen
-- OO
-    - Objekt-Instanziierung
-    - Vererbung 
-    - Abstrakte Klassen 
-    - Interfaces
-    - Enum
-    - Assoziationen
-    - Referenzen
-    - Methoden Deklaration und Aufruf
-
+- Wiederholung von praktischen und theoretischen Aspekten der ISW19/20 Vorlesung.
 
 ## Und jetzt?
-Am besten selber rumprobieren indem ihr das Projekt runterladet.
+- Am besten selber rumprobieren indem ihr das Projekt runterladet.
+- Selber Übungen suchen, machen und vergleichen!
+- Bei Fragen einfach anschreiben.
 
